@@ -1,10 +1,11 @@
 {
-  "name": "reverse-sentence",
+  "name": "@dilenio/reverse-sentence",
   "version": "0.1.0",
-  "description": "",
+  "description": "Reverses a sentence.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "./node_modules/prettier/bin-prettier.js . --write"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/dilenio/reverse-sentence/issues"
   },
-  "homepage": "https://github.com/dilenio/reverse-sentence#readme"
+  "homepage": "https://github.com/dilenio/reverse-sentence#readme",
+  "devDependencies": {
+    "prettier": "2.5.1"
+  }
 }
